@@ -9,6 +9,7 @@
   align-items: baseline;
   justify-content: space-around;
   background-color: #EF216B;
+  border-radius: 5px;
 }
 #logo{
   width: 80px;
@@ -108,13 +109,22 @@
   list-style-type: none;
   justify-content: space-around;
   align-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+  
+  
   
 }
 li a{
   color: black;
+  border: 2px solid rgb(226, 11, 101);
+  border-radius: 6px;
+  padding: 3px 5px 3px 5px;
+  
 }
+
+
 
 h4{
   text-align: center;
