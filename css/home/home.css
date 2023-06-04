@@ -104,10 +104,11 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   padding: 1% 5%;
   margin-top: 10px;
+  column-gap: 2%;
 
 }
 
@@ -214,6 +215,10 @@ h4{
 @media (min-width: 800px) {
   .menu-toggle {
     display: none;
+  
+  }
+  ul .icon-box img{
+    display: none;
   }
 
  
@@ -222,18 +227,35 @@ h4{
 @media (max-width: 800px) {
   .menu-toggle {
     display: block;
+    
   }
 
   .menu {
     display: none;
-    
-    
+    opacity: 0; 
   }
 
   .menu.active {
     display: block;
+    opacity: 1;
+    
   }
   .menu li {
     margin-top: 5%;
+    
+  }
+  .icon-box  img{
+    display: none;
+  }
+
+  .menu .icon-box{
+    display: flex;
+    column-gap: 8px;
+    justify-items: baseline;
+    align-items: center;
+  }
+  .menu  img{
+    display: flex;
+    
   }
 }
