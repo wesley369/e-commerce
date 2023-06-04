@@ -118,7 +118,9 @@ li a:hover{
 h4{
   text-align: center;
   margin: 2%;
+  
 }
+
 .carrousel{
   display: flex;
   width: 90vw;
@@ -198,6 +200,15 @@ h4{
 
 .carrousel-feedback  div {
   margin: 0 0.40%;
+}
+
+.carrousel {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.carrousel.visible {
+  opacity: 1;
 }
 
 @media (min-width: 800px) {
