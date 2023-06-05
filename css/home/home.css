@@ -4,12 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header{
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   background-color: #EF216B;
-  padding: 2% 5%;
+  padding: 1% 5%;
 }
 
 .icon-box{
@@ -116,13 +117,12 @@ li a:hover{
 
 h4{
   text-align: center;
-  margin: 2%;
-  
+  margin: 4%;
 }
 
 .carrousel{
   display: flex;
-  width: 90vw;
+  width: 93vw;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
@@ -175,9 +175,6 @@ h4{
   color: black;
 }
 
-.desfoque{
-  background-color: black;
-}
 
 
 .carrousel-feedback{
@@ -209,6 +206,62 @@ h4{
 .carrousel.visible {
   opacity: 1;
 }
+
+.sobre-nos{
+  display: flex;
+  flex-direction: column;
+  margin: 3% 5%;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.sobre-nos h4{
+  font-size: 2.5rem;
+}
+.sobre-nos p{
+  font-size: 1.5rem;
+}
+.imgFundo{
+  background-image: url(/html/home/img/imagem-fundo-temporária.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 40vh;
+  width: 90vw;
+}
+
+.desfoque{
+  background-color: rgba(0, 0, 0, 0.226);
+  height: 100%;
+  border-radius: 10px;
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3% 5%;
+  cursor: pointer;
+  column-gap: 0.30%;
+  row-gap: 0.30%;
+}
+
+.item-galeria:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.galeria img{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 300px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+}
+
+.teste{
+  grid-column: span 2;
+}
+
 
 @media (min-width: 800px) {
   .menu-toggle {

@@ -20,7 +20,9 @@
   <div class="header sticky-top">
     <div class="logo">
       <img src="img/logo2.jpeg" alt="" width="40px" height="40px" id="logo">
+      
     </div>
+   
     <div class="search-box">
       <input type="text" class="search-text" placeholder="Pesquisar...">
       <a class="search-btn">
@@ -34,6 +36,7 @@
       <a href=""><img src="img/contraste.svg" alt="" class="icone" id="contraste"></a>
       <a href=""><img src="img/tipografia.svg" alt="" class="icone" id="tipografia"></a>
     </div>
+    <!-- Aqui que é a imagem do menu hamburguer -->
     <button class="menu-toggle"><img src="/html/home/img/menu-burguer.svg" alt="" height="25px" width="25px"></button>
   </div>
 
@@ -242,6 +245,18 @@
     </div>
   </div>
   <div>
+    <div class="sobre-nos imgFundo">
+      <div class="desfoque">
+        <div>
+          <h4>Sobre Nós</h4>
+        </div>
+        <div>
+          <p>
+            Bem-vindo ao Tropical Garden: Seu destino online para flores tropicais exóticas e deslumbrantes. Descubra uma variedade impressionante de espécies únicas, cultivadas com paixão e dedicação no interior de Pernambuco. Ilumine seus espaços e transmita emoções com nossas flores frescas e entregues diretamente em sua porta. Celebre momentos especiais e crie um paraíso natural em sua casa. Explore o Tropical Garden e descubra a beleza e o encanto das flores tropicais.
+          </p>
+        </div>
+      </div>
+    </div>
     <h4>
       Como é comprar na Tropical Garden
     </h4>
@@ -278,13 +293,46 @@
           <p>Angélica Martins</p>
       </div>
     </div>
-  
-
+    <h4>
+      Galeria de imagens
+    </h4>
+    <div class="galeria">
+      <div class="teste item-galeria">
+        <img src="img/galeria-img1.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img2.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img3.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img4.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img5.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img5.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img6.jpg" alt="">
+      </div>
+      <div class="item-galeria">
+        <img src="img/galeria-img7.jpg" alt="">
+      </div>
+    </div>
+    <h4>
+      Localização
+    </h4>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252745.8878120279!2d-36.18127067450977!3d-8.18718724571007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bbebc94490f%3A0xdd09062168eb8b2b!2sCaruaru%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1685972515921!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   <script>
     $('.carrousel').slick({
       dots: false,
       arrows: true,
-      infinite: false,
+      infinite: true,
       speed: 300,
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -320,7 +368,7 @@
     $('.carrousel-feedback').slick({
   centerMode: true,
   arrows: true,
-  dots: true,
+  dots: false,
   infinite: true,
   centerPadding: '60px',
   slidesToShow: 3,
