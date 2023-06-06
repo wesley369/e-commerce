@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .header{
@@ -10,7 +12,8 @@
   align-items: baseline;
   justify-content: space-between;
   background-color: #EF216B;
-  padding: 1% 5%;
+  padding: 0.5% 5%;
+  gap: 3%;
 }
 
 .icon-box{
@@ -19,9 +22,17 @@
   justify-content:  baseline;
 }
 #logo{
-  width: 80px;
+  
   height: 100%;
   border-radius: 50%;
+}
+
+.texto{
+  align-self: flex-end;
+  color: white;
+  
+  font-family: 'Great Vibes', cursive;
+  
 }
 
 #tipografia{
@@ -47,7 +58,7 @@
 .search-box {
   background-color: white;
   border-radius: 40px;
-  height: 50px;
+  height: 30px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -67,7 +78,7 @@
 
 .search-btn {
   width: 50px;
-  height: 50px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,33 +102,42 @@
   justify-content: center;
   align-content: center;
   padding: 1% 5%;
-  margin-top: 10px;
   column-gap: 2%;
+  background-color: #daaebe;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 0;
 
 }
 
 li a{
   color: black;
-  border: 2px solid rgb(226, 11, 101);
   border-radius: 6px;
+  border: 1px solid #daaebe;
   padding: 3px 5px 3px 5px;
   text-decoration: none;
   
 }
 li a:hover{
   text-decoration: none;
-  color: rgb(226, 11, 101);
+  color: black;
+  background-color: #ef216c8e;
 }
 .navbar-brand {
   display: flex;
   justify-content: space-between;
 }
 
-
+.menu-toggle{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
 
 h4{
   text-align: center;
-  margin: 4%;
+  margin: 2%;
+  background-image: linear-gradient(to right, #EF216B, #daaebe);
+  border-radius: 8px;
 }
 
 .carrousel{
@@ -216,9 +236,11 @@ h4{
   border-radius: 10px;
 }
 
-.sobre-nos h4{
+.sobre-nos.imgFundo  h4{
   font-size: 2.5rem;
+  background-color: none;
 }
+
 .sobre-nos p{
   font-size: 1.5rem;
 }
@@ -227,7 +249,7 @@ h4{
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  height: 40vh;
+  height: 60vh;
   width: 90vw;
 }
 
@@ -261,6 +283,23 @@ h4{
 .teste{
   grid-column: span 2;
 }
+
+span{
+  width: 500px;
+  height: 500px;
+}
+
+.mapa{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 50px auto 50px auto;
+  
+}
+
+
 
 
 @media (min-width: 800px) {
