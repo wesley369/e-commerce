@@ -35,5 +35,7 @@ function handleIntersection(entries) {
   
   observer.observe(document.getElementById('ofertas'));
 
+  
+
 
   
