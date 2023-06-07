@@ -136,7 +136,7 @@ li a:hover{
 h4{
   text-align: center;
   margin: 2%;
-  background-image: linear-gradient(to right, #EF216B, #daaebe);
+  /* background-image: linear-gradient(to right, #EF216B, #daaebe); */
   border-radius: 8px;
 }
 
@@ -234,11 +234,14 @@ h4{
   color: white;
   text-align: center;
   border-radius: 10px;
+  
+  
 }
 
 .sobre-nos.imgFundo  h4{
   font-size: 2.5rem;
   background-color: none;
+
 }
 
 .sobre-nos p{
@@ -249,7 +252,7 @@ h4{
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  height: 60vh;
+  height: 40vh;
   width: 90vw;
 }
 
@@ -284,23 +287,59 @@ h4{
   grid-column: span 2;
 }
 
-span{
-  width: 500px;
-  height: 500px;
+
+.sobre-nos  h4{
+  background-image: none;
 }
 
-.mapa{
-  position: absolute;
-  width: 350px;
-  height: 350px;
-  border-radius: 50px;
-  overflow: hidden;
-  margin: 50px auto 50px auto;
+.form{
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+  background-color: #daaebe;
+  padding-top: 2%;
+  margin: auto auto;
   
 }
 
+.input{
+  display: flex;
+  flex-direction: column;
+  
+}
+label{
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+ }
 
+ #mensagem{
+  height: 100px;
+  vertical-align: top;
+  width: 620px;
+ }
 
+.form button{
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: black;
+  height: 30px;
+  width: 90px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.botao{
+  text-align: center;
+}
+
+.form img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 @media (min-width: 800px) {
   .menu-toggle {
