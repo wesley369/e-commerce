@@ -252,7 +252,7 @@ h4{
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  height: 40vh;
+  height: 50vh;
   width: 90vw;
 }
 
@@ -317,7 +317,7 @@ label{
  #mensagem{
   height: 100px;
   vertical-align: top;
-  width: 620px;
+  width: 400px;
  }
 
 .form button{
@@ -341,6 +341,38 @@ label{
   border-radius: 10px;
 }
 
+footer{
+  background-color: #EF216B;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 5%;
+  margin-top: 5%;
+  align-items: first baseline;
+  padding-top: 1%;
+}
+
+h6{
+  text-align: end;
+  vertical-align: bottom;
+}
+.logo-footer{
+  align-self: flex-start;
+}
+.copyright{
+  grid-column: span 3;
+}
+.copyright p{
+  text-align: center;
+}
+
+.redes-sociais{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.redes-sociais > p{
+  align-self: last baseline;
+}
 @media (min-width: 800px) {
   .menu-toggle {
     display: none;
