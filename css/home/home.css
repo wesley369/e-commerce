@@ -110,7 +110,7 @@
 
 }
 
-li a{
+.menu li a{
   color: black;
   border-radius: 6px;
   border: 1px solid #daaebe;
@@ -118,7 +118,7 @@ li a{
   text-decoration: none;
   
 }
-li a:hover{
+.menu li a:hover{
   text-decoration: none;
   color: black;
   background-color: #ef216c8e;
@@ -292,7 +292,7 @@ h4{
   background-image: none;
 }
 
-.form{
+form{
   display: flex;
   width: 90vw;
   justify-content: space-between;
@@ -300,41 +300,17 @@ h4{
   background-color: #daaebe;
   padding-top: 2%;
   margin: auto auto;
-  
+  column-gap: 45px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.input{
-  display: flex;
-  flex-direction: column;
-  
-}
-label{
-  display: inline-block;
-  text-align: right;
-  width: 100px;
- }
-
- #mensagem{
-  height: 100px;
-  vertical-align: top;
-  width: 400px;
- }
-
-.form button{
-  border: 1px solid black;
-  border-radius: 30px;
-  background-color: black;
-  height: 30px;
-  width: 90px;
-  color: white;
-  cursor: pointer;
-  text-align: center;
-}
 .botao{
-  text-align: center;
-}
+  margin-top: 1%;
+} 
 
-.form img{
+
+form img{
   object-fit: cover;
   width: 100%;
   height: auto;
