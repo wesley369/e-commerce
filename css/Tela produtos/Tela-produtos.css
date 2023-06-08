@@ -151,7 +151,110 @@
     height: auto;
 }
 
+.item-grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 30vw;
+  column-gap: 3%;
+  align-items: flex-end;
+  line-height: 1;
+  background-color: #daaebe;
+  border-radius: 6px;
+  padding: 1% 2%;
+}
+.item-grid img{
+  width: 30%;
+  height: auto;
+  
+}
 
+span{
+  font-size: 0.8rem;
+}
+.endereco{
+  display: grid;
+  background-color: #daaebe;
+  border-radius: 6px;
+  padding: 3% 2%;
+  margin-top: 3%;
+}
+
+.item-endereco a {
+  text-decoration: none;
+  color: white;
+}
+.endereco button{
+  justify-self: center;
+  border-radius: 15px;
+  padding: 8px 8px;
+  border: none;
+  width: 50%;
+}
+.item-endereco{
+  display: flex;
+  justify-content: space-around
+}
+
+.botao-comprar{
+  display: grid;
+  justify-content: stretch;
+
+}
+.botao-comprar button{
+  border-radius: 25px;
+  border: none;
+  margin-top: 3%;
+  padding: 3% 3%;
+  background-color: #EF216B;
+  cursor: pointer;
+}
+
+.botao-comprar button:hover{
+  transform: scale(110%);
+  transition: 0.4s;
+  color: white;
+}
+
+.descricao-produto{
+  text-align: justify;
+}
+.descricao-produto h4{
+  margin: 2% 0;
+}
+
+
+footer{
+  background-color: #EF216B;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 5%;
+  margin-top: 5%;
+  align-items: first baseline;
+  padding-top: 1%;
+}
+
+h6{
+  text-align: end;
+  vertical-align: bottom;
+}
+.logo-footer{
+  align-self: flex-start;
+}
+.copyright{
+  grid-column: span 3;
+}
+.copyright p{
+  text-align: center;
+}
+
+.redes-sociais{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.redes-sociais > p{
+  align-self: last baseline;
+}
 @media (min-width: 800px) {
     .menu-toggle {
       display: none;
