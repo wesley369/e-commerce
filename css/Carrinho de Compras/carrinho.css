@@ -17,7 +17,8 @@ header{
 	background-color: #EF216B;
 	padding: 0.5% 5%;
 	gap: 3%;
-	margin-bottom: 0.2%;
+	margin-bottom: 0.1%;
+	
 }
 
 .logo{
@@ -33,7 +34,7 @@ header{
 
 main{
 	background-color: #eb83a9fd;
-	color: #9d4cad;
+	color: #f9f7fa;
 }
 h3{
 	text-align: center;
@@ -135,13 +136,17 @@ aside{
 .fim{
 	border: 0;
 	padding: 15px 0;
-	color: #fcf7f8;
 	background: #298d0ac9;
 	display: block;
 	width: 100%;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-top: 5px;
+}
+
+#fim-compra{
+	color: white;
+
 }
 
 .finalizar-compra{
