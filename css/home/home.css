@@ -145,39 +145,44 @@ h4{
   width: 93vw;
   margin-left: auto;
   margin-right: auto;
-  height: 100%;
 }
 
-.item-carrousel{
-  display: flex;
+.card-info-produto{
   background-color: rgba(0, 0, 0, 0.123);
-  border-radius: 15px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
-  /* height: 250px; */
-  height: 100%;
-  
-}
-
-
-
-.item-carrousel p{
-  
-  justify-content: flex-start;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
   color: black;
   font-weight: bold;
-  
-}
-.item-carrousel > .preco{
-  align-self:  flex-end;
+  padding-top: 20px;
+  height: 150px;
+  margin: 0 auto;
 }
 
+
+.card-info-produto button{
+  background-color: rgb(211, 30, 30);
+  border: none;
+  height: 25px;
+  padding: 0 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card-info-produto button:hover{
+  color: white;
+}
+.card-preco{
+  display: flex;
+  justify-content: space-around;
+}
 .carrousel img{
   object-fit: cover;
   object-position: center;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
+  width: 99%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   
 }
 
@@ -193,29 +198,6 @@ h4{
 
 .slick-next::before{
   color: black;
-}
-
-
-
-.carrousel-feedback{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-  text-align: center;
-  
-}
-
-.card-feedback{
-  border-radius: 15px;
-
-  height: 300px;
-  background-color: #e778a1fd;
-  
-}
-
-.carrousel-feedback  div {
-  margin: 0 0.40%;
 }
 
 .carrousel {
@@ -260,6 +242,41 @@ h4{
   background-color: rgba(0, 0, 0, 0.226);
   height: 100%;
   border-radius: 10px;
+}
+
+.carrousel-feedback{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  text-align: center;
+  
+}
+
+.card-feedback{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: space-evenly;
+  padding-top: 20px;
+  border-radius: 10px;
+  height: 300px;
+  background-color: #e778a1fd;
+  
+}
+
+.carrousel-feedback  div {
+  margin: 0 0.40%;
+}
+.carrousel-feedback h6{
+  margin: 5px 0;
+}
+.foto-cliente{
+  object-fit: cover;
+  border-radius: 30px;
+  object-position: center;
+}
+.carrousel-feedback img{
+  margin: 0 auto;
 }
 
 .galeria{
@@ -330,7 +347,7 @@ footer{
   padding-top: 1%;
 }
 
-h6{
+footer h6{
   text-align: end;
   vertical-align: bottom;
   padding: 2%;
@@ -354,6 +371,8 @@ h6{
   align-self: last baseline;
   margin-left: 2%;
 }
+
+
 @media (min-width: 800px) {
   .menu-toggle {
     display: none;
@@ -369,18 +388,20 @@ h6{
 @media (max-width: 800px) {
   .menu-toggle {
     display: block;
-    
   }
 
   .menu {
     display: none;
     opacity: 0; 
+    
   }
 
   .menu.active {
     display: block;
     opacity: 1;
-    
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
   }
   .menu li {
     margin-top: 5%;
