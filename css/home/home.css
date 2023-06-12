@@ -4,7 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
 }
 body {
   background-color: #ffffff; /* Cor de fundo do modo claro */
@@ -39,17 +40,16 @@ body.dark-mode {
 .texto{
   align-self: flex-end;
   color: white;
-  
   font-family: 'Great Vibes', cursive;
   
 }
-
-#tipografia{
-  width: 25px;
-  height: 19px;
- 
-
+#aumentarFonteBtn{
+  width: 17px;
+  height: 10px;
+  background-color: #EF216B;
+  border: none;
 }
+
 
 #user{
   width: 25px;
@@ -380,6 +380,27 @@ footer h6{
 .redes-sociais > p{
   align-self: last baseline;
   margin-left: 2%;
+}
+
+/*trasição da fonte aumentar e diminuir*/
+h1, h2, h3, h4, h5, h6 {
+  font-size: 24px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+p {
+  font-size: 16px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+a {
+  font-size: 14px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+input[type="text"] {
+  font-size: 12px;
+  transition: font-size 0.3s ease-in-out;
 }
 
 
