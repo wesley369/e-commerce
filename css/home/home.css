@@ -384,22 +384,18 @@ footer h6{
 
 /*trasição da fonte aumentar e diminuir*/
 h1, h2, h3, h4, h5, h6 {
-  font-size: 24px;
   transition: font-size 0.3s ease-in-out;
 }
 
 p {
-  font-size: 16px;
   transition: font-size 0.3s ease-in-out;
 }
 
 a {
-  font-size: 14px;
   transition: font-size 0.3s ease-in-out;
 }
 
 input[type="text"] {
-  font-size: 12px;
   transition: font-size 0.3s ease-in-out;
 }
 
