@@ -6,6 +6,15 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+body {
+  background-color: #ffffff; /* Cor de fundo do modo claro */
+  color: #000000; /* Cor do texto do modo claro */
+}
+
+body.dark-mode {
+  background-color: #000000; /* Cor de fundo do modo escuro */
+  color: #ffffff; /* Cor do texto do modo escuro */
+}
 
 .header{
   display: flex;
@@ -47,13 +56,13 @@
   height: 29px;
   
 }
-
-#contraste{
+#dark-mode-toggle{
+  background-color: #EF216B;
+  border: none;
   width: 25px;
   height: 21px;
-  
-
 }
+
 
 .search-box {
   background-color: white;
@@ -157,6 +166,7 @@ h4{
   padding-top: 20px;
   height: 150px;
   margin: 0 auto;
+  background-color: #EF216B;
 }
 
 

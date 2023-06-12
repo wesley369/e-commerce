@@ -7,6 +7,31 @@ menuToggle.addEventListener('click', () => {
   
 });
 
+const toggleButton = document.getElementById('dark-mode-toggle');
+
+// Verificar o estado atual do modo noturno no armazenamento local (se existir)
+if (localStorage.getItem('darkMode') === 'true') {
+  enableDarkMode();
+}
+
+// Alternar entre o modo claro e escuro ao clicar no botão de alternância
+toggleButton.addEventListener('click', function() {
+  if (document.body.classList.contains('dark-mode')) {
+    disableDarkMode();
+  } else {
+    enableDarkMode();
+  }
+});
+
+function enableDarkMode() {
+  document.body.classList.add('dark-mode');
+  localStorage.setItem('darkMode', 'true');
+}
+
+function disableDarkMode() {
+  document.body.classList.remove('dark-mode');
+  localStorage.setItem('darkMode', 'false');
+}
 
 function handleIntersection(entries) {
     entries.forEach(function (entry) {
@@ -35,7 +60,7 @@ function handleIntersection(entries) {
   
   observer.observe(document.getElementById('ofertas'));
 
-  
+
 
 
   
