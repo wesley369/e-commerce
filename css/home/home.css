@@ -171,7 +171,7 @@ h4{
 
 
 .card-info-produto button{
-  background-color: rgb(211, 30, 30);
+  background-color: rgb(243, 243, 243);
   border: none;
   height: 25px;
   padding: 0 20px;
@@ -179,7 +179,7 @@ h4{
   cursor: pointer;
 }
 .card-info-produto button:hover{
-  color: white;
+  border: 1px solid rgb(10, 240, 10);
 }
 .card-preco{
   display: flex;
