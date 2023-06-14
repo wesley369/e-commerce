@@ -144,7 +144,7 @@ body.dark-mode {
 
 h4{
   text-align: center;
-  margin: 2%;
+  margin: 6%;
   /* background-image: linear-gradient(to right, #EF216B, #daaebe); */
   border-radius: 8px;
 }
@@ -326,11 +326,9 @@ form{
   justify-content: space-between;
   border-radius: 10px;
   background-color: #e778a1fd;
-  padding-top: 2%;
-  margin: auto auto;
-  column-gap: 45px;
-  padding-left: 2%;
-  padding-right: 2%;
+  margin: 0 auto;
+  column-gap: 15px;
+  padding: 2% 2%;
 }
 
 .botao{
@@ -476,7 +474,7 @@ input[type="text"] {
     height: 15px;
   }
   .carrousel{
-    width: 40vw;
+    width: 80vw;
    
   }
   .item-carrousel{
@@ -505,11 +503,11 @@ input[type="text"] {
     
   }
   .carrousel-feedback{
-    width: 50vw
-    
-    
+    width: 80vw;
   }
-
+  .card-feedback{
+    height: 200px;
+  }
   .galeria{
     grid-template-columns: 1fr 1fr;
     
@@ -519,14 +517,15 @@ input[type="text"] {
     height: 160px;
 
   }
+  .item-galeria:hover{
+    transform: none;
+    transition: none;
+  }
   form{
     width: 90vw;
   }
   form img{
-    display: none;
-  }
-  .form-group{
-    margin: 0 auto;
+    height: 100%;
   }
  
  .redes-sociais img{
