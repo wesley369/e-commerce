@@ -78,7 +78,7 @@ function verificarTamanhoTela() {
   const larguraTela = window.innerWidth;
   const divIconBox = document.querySelector(".icon-box");
 
-  if (larguraTela < 479) {
+  if (larguraTela < 767) {
     divIconBox.classList.add("hide");
   } else {
     divIconBox.classList.remove("hide"); 

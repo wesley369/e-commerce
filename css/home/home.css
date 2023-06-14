@@ -393,7 +393,7 @@ input[type="text"] {
   display: none;
 }
 
-@media (min-width: 479px) {
+@media (min-width: 1024px) {
   .menu-toggle {
     display: none;
   
@@ -407,7 +407,7 @@ input[type="text"] {
  
 }
 
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .menu-toggle {
     display: block;
   }
@@ -527,7 +527,7 @@ input[type="text"] {
     height: 100%;
   }
  footer{
-  column-gap: 6px;
+  column-gap: 20px;
   padding-top: 3%;
  }
  .redes-sociais img{
@@ -539,4 +539,8 @@ input[type="text"] {
     width: 60px;
  }
  
+}
+
+
+@media (max-width: 479px) {
 }
