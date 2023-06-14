@@ -43,7 +43,7 @@ body.dark-mode {
   font-family: 'Great Vibes', cursive;
   
 }
-#aumentarFonteBtn{
+.aumentarFonteBtn{
   width: 17px;
   height: 10px;
   background-color: #EF216B;
@@ -56,7 +56,7 @@ body.dark-mode {
   height: 29px;
   
 }
-#dark-mode-toggle{
+.dark-mode-toggle{
   background-color: #EF216B;
   border: none;
   width: 25px;
@@ -130,7 +130,7 @@ body.dark-mode {
 .menu li a:hover{
   text-decoration: none;
   color: black;
-  background-color: #ef216c8e;
+  background-color:#ef216c8e;
 }
 .navbar-brand {
   display: flex;
@@ -212,14 +212,6 @@ h4{
   color: black;
 }
 
-.carrousel {
-  opacity: 0;
-  transition: opacity 1.5s;
-}
-
-.carrousel.visible {
-  opacity: 1;
-}
 
 .sobre-nos{
   display: grid;
@@ -397,7 +389,9 @@ a {
 input[type="text"] {
   transition: font-size 0.3s ease-in-out;
 }
-
+.hide {
+  display: none;
+}
 
 @media (min-width: 479px) {
   .menu-toggle {
@@ -428,27 +422,30 @@ input[type="text"] {
     position: fixed;
     z-index: 9999;
     width: 100vw;
+    background-color: #EF216B;
   }
   .menu li {
     margin-top: 5%;
     
   }
-  .icon-box  img{
-    display: none;
-  }
+  
 
   .menu .icon-box{
     display: flex;
     column-gap: 8px;
-    justify-items: baseline;
+
     align-items: center;
   }
   .menu  img{
     display: flex;
+    background-color: none;
     
   }
+    #tipografia{
+      margin-top: -5px;
+    }
   html{
-    font-size: 8px;
+    font-size: 0.65rem;
   }
   .header{
     align-items: center;
@@ -458,7 +455,7 @@ input[type="text"] {
   }
   .search-box {
     width: 130px;
-    height: 5px;
+    height: 8px;
     padding: 6px;
     border-radius: 10px;
   }
@@ -527,7 +524,10 @@ input[type="text"] {
   form img{
     height: 100%;
   }
- 
+ footer{
+  column-gap: 6px;
+  padding-top: 3%;
+ }
  .redes-sociais img{
     width: 15px;
     height: 15px;
@@ -536,4 +536,5 @@ input[type="text"] {
     height: 60px;
     width: 60px;
  }
+ 
 }
