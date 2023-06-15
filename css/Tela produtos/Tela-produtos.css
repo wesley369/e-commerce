@@ -103,9 +103,7 @@
   align-content: center;
   padding: 1% 5%;
   column-gap: 2%;
-  background-color: #e778a1fd;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  background-color: #9effb6fd;
   margin-bottom: 0;
 
 }
@@ -113,15 +111,14 @@
 .menu li a{
   color: black;
   border-radius: 6px;
-  border: 1px solid #e778a1fd;
   padding: 3px 5px 3px 5px;
   text-decoration: none;
   
 }
 .menu li a:hover{
   text-decoration: none;
-  color: black;
-  background-color: #ef216c8e;
+  color: white;
+  background-color: #ff0079;
 }
 .navbar-brand {
   display: flex;
@@ -246,6 +243,7 @@ footer{
   margin-top: 5%;
   align-items: first baseline;
   padding-top: 1%;
+  color: white;
 }
 
 h6{
