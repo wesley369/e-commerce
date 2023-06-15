@@ -333,10 +333,9 @@ body.dark-mode {
   }
   .imgFundo1 {
     height: auto;
+    margin-left: 30px;
   }
-  .carrousel-feedback {
-    width: 80vw;
-  }
+ 
 
   footer #logo {
     height: 60px;
