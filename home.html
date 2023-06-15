@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <script src="js/boostrapjs/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/slick/slick/slick.min.js"></script>
+  <script src="js/slick/slick/slick.js"></script>
+  <link rel="stylesheet" href="js/slick/slick/slick.css">
+  <link rel="stylesheet" href="js/slick/slick/slick-theme.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tropical Garden</title>
+  <link rel="stylesheet" href="css/Tela produtos/bootstrap.css">
+  <link rel="stylesheet" href="css/home/home.css">
+  <link rel="shortcut icon" href="html/home/img/agoravai2.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="header sticky-top">
+    <div class="logo">
+      <img src="html/home/img/agoravai2.png" alt="" width="60px" height="70px" id="logo">
+
+    </div>
+    <h1 class="texto">
+      Tropical Garden
+    </h1>
+    <div class="search-box">
+      <input type="text" class="search-text" placeholder="O que você procura?">
+      <a class="search-btn">
+        <img class="loupe" src="html/home/img/pesquisa.png" alt="Lupa">
+      </a>
+    </div>
+
+    <div class="icon-box  ">
+      <a href="html/home/login.html"><img src="html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href="html/Carrinho de Compras/carrinho.html"><img src="html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="dark-mode-toggle" ><img src="html/home/img/contraste.svg" alt="" class="icone" id="contraste"></button>
+      <button class="aumentarFonteBtn"><img src="html/home/img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+    </div>
+    
+    <button class="menu-toggle"><img src="html/home/img/menu-burguer.png" alt="" height="25px" width="25px"></button>
+  </div>
+
+  <ul class="menu">
+    <div class="icon-box ">
+      <a href="html/home/login.html"><img src="html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href=""><img src="html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="aumentarFonteBtn"><img src="html/home/img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+      <button class="dark-mode-toggle"><img src="html/home/img/contraste.svg" alt="" class="icone" id="contraste"></button>
+    </div>
+    <hr>
+    <li><a href="#">Plantas Tropicais</a></li>
+    <hr>
+    <li><a href="#">Presentes especiais</a></li>
+    <hr>
+    <li><a href="#">Arranjos de Flores</a></li>
+    <hr>
+    <li><a href="#">Flores em vasos</a></li>
+    <hr>
+    <li><a href="#">Buquês de flores</a></li>
+    <hr>
+    <li><a href="#">Ocasiões</a></li>
+    <hr>
+  </ul>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide carrousel-teste" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="html/home/img/image 12.png" class="d-block w-100" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="html/home/img/image 14.png" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="html/home/img/image 15.png" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div>
+    <h4>Ofertas do dia</h4>
+  </div>
+  <div class="carrousel">
+    <div class="item-carrousel">
+      <a href="/html/Tela produtos/tela-produtos.html"><img src="html/home/img/orquidea1.webp" alt=""></a>
+      <div class="card-info-produto">
+        <a href="html/Tela produtos/tela-produtos.html"><p>Orquídea Phalaenópsis Branca Plantada</p></a>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+    <a href="html/Tela produtos/tela-produtos2.html">  <img src="html/home/img/arranjo-orquideabranca.webp" alt=""></a>
+      <div class="card-info-produto">
+        <a href="/html/Tela produtos/tela-produtos2.html"><p>Arranjo de Orquídea Branca em Bowl de Vidro</p></a>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <a href="html/Tela produtos/tela-produtos3.html"><img src="html/home/img/orquidearosaplantada.webp" alt=""></a>
+      <div class="card-info-produto">
+        <a href="/html/Tela produtos/tela-produtos3.html"><p>Orquídea Phalaenópsis Pink Plantada </p></a>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <a href="html/Tela produtos/tela-produtos4.html"><img src="html/home/img/daterrabranca.webp" alt=""></a>
+      <div class="card-info-produto">
+        <a href="html/Tela produtos/tela-produtos4.html"><p>Orquídea Da Terra Branca e Trufas Belgas</p></a>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/daterrabrancachandon.webp" alt="">
+      <div class="card-info-produto">
+        <p>Orquídea Da Terra Branca, Trufas e Baby Chandon</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h4>Novidades</h4>
+  </div>
+  <div class="carrousel">
+    <div class="item-carrousel">
+      <img src="html/home/img/buqueflorescampo.webp" alt="">
+      <div class="card-info-produto">
+        <p>Buquê de Flores do Campo Coloridas</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/astromelia2.webp" alt="">
+      <div class="card-info-produto">
+        <p>Arranjo de Astromélias Vermelhas em Vaso</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/orquideavanda.webp" alt="">
+      <div class="card-info-produto">
+        <p>Orquídea Vanda Branca em <br>Vaso</br></p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/orquideavanda-amarela.webp" alt="">
+      <div class="card-info-produto">
+        <p>Orquídea Vanda Amarela em Bowl de Vidro</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/miniorquidea.webp" alt="">
+      <div class="card-info-produto">
+        <p>Mini Orquídeas Brancas em Base Rústica de Madeira</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h4>Produtos mais vendidos</h4>
+  </div>
+  <div class="carrousel">
+    <div class="item-carrousel">
+      <img src="html/home/img/10astromelias.webp" alt="">
+      <div class="card-info-produto">
+        <p>Arranjo de 10 Astromélias Creme em Vaso</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/astromeliasrosas.webp" alt="">
+      <div class="card-info-produto">
+        <p>Arranjo de Astromélias Rosas em Vaso</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/orquideavanda-pink.webp" alt="">
+      <div class="card-info-produto">
+        <p>Orquídea Vanda Pink em Bowl de Vidro</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/orquideadenphalbranca.webp" alt="">
+      <div  class="card-info-produto">
+        <p>Orquídea Denphal Branca em Vaso de Madeira</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="item-carrousel">
+      <img src="html/home/img/buqueorquideabranca.webp" alt="">
+      <div class="card-info-produto">
+        <p>Buquê de 8 Orquídeas Phalaenópsis Brancas</p>
+        <div class="card-preco">
+          <p >114,5</p>
+          <a href=""><button type="submit">+</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="sobre-nos imgFundo">
+      <div class="desfoque">
+        <div>
+          <h4>O que é a Tropical Garden?</h4>
+        </div>
+        <div>
+          <p>
+            Somos uma floricultura especializada em flores tropicais, trazendo a magia das regiões tropicais diretamente para você. Seja para presentear alguém especial, decorar um evento ou simplesmente apreciar a beleza das flores, estamos aqui para atender a todas as suas necessidades florais. Nossa missão é trazer a alegria e a exuberância das flores tropicais para a vida das pessoas. Acreditamos que as flores têm o poder de transmitir emoções, expressar amor e criar momentos memoráveis!
+          </p>
+        </div>
+      </div>
+    </div>
+    <h4>
+      Como é comprar na Tropical Garden?
+    </h4>
+  </div>
+  <div class="carrousel-feedback">
+    <div>
+      <div class="card-feedback">
+        <img class="foto-cliente" src="html/home/img/rosto-mulher.jpg" alt="">
+        <h6>Comprei: orquídea plantada</h6>
+        <p>
+          Fiquei impressionada com a qualidade do produto! Além disso, a entrega foi rápida.</p>
+        <p>Angélica Martins</p>
+        <img src="html/home/img/estrelas.png" alt="" width="80px" height="30px">
+      </div>
+    </div>
+    <div class="card-feedback">
+      <img class="foto-cliente" src="html/home/img/rosto-mulher.jpg" alt="">
+      <h6>Comprei: arranjo de astromélias</h6>
+      <p>
+        Os preços da Tropical Garden são os melhores. Amo a variedade das flores!</p>
+      <p>Tuanny Silva</p>
+      <img src="html/home/img/estrelas.png" alt="" width="80px" height="30px">
+    </div>
+    <div class="card-feedback">
+      <img class="foto-cliente" src="html/home/img/rosto-mulher.jpg" alt="">
+      <h6>Comprei: orquídea branca</h6>
+      <p>
+      Comprei flores para o aniversário da minha mãe. Ela amou o presente!</p>
+      <p>Laura Pimentel</p>
+      <img src="html/home/img/estrelas.png" alt="" width="80px" height="30px">
+    </div>
+    <div class="card-feedback">
+      <img class="foto-cliente" src="html/home/img/rosto-mulher.jpg" alt="">
+      <h6>Comprei: astromélias vermelhas</h6>
+      <p>
+        Só aqui encontro minhas flores preferidas. Compro sempre e recomendo!</p>
+      <p>Alessandra Ramalho</p>
+      <img src="html/home/img/estrelas.png" alt="" width="80px" height="30px">
+    </div>
+    <div class="card-feedback">
+      <img class="foto-cliente" src="html/home/img/rosto-mulher.jpg" alt="">
+      <h6>Comprei: arranjo de astromélias</h6>
+      <p>
+        Só encontrei essas flores na Tropical Garden.
+         Fiquei feliz com o produto e a entrega.</p>
+      <p>Ellie</p>
+      <img src="html/home/img/estrelas.png" alt="" width="80px" height="30px">
+    </div>
+  </div>
+  <h4>
+    Galeria
+  </h4>
+  <div class="galeria">
+    <div class="teste item-galeria">
+      <img src="/html/home/img/heliconia.jpg" alt="">
+    </div>
+    <div class="item-galeria">
+      <img src="html/home/img/crisantemo.webp" alt="">
+    </div>
+    <div class="item-galeria">
+      <img src="html/home/img/orquidea2.webp" alt="">
+    </div>
+    <div class="item-galeria">
+      <img src="html/home/img/astromelia.jpg" alt="">
+    </div>
+    <div class="item-galeria">
+      <img src="html/home/img/hibisco.png" alt="">
+    </div>
+    <div class="item-galeria">
+      <img src="/html/home/img/orquideanova.jpg" alt="">
+    </div>
+    
+  </div>
+  <h4>
+    Alguma dúvida? Envie uma mensagem!
+  </h4>
+  
+<form>
+  <div class="form-group form-row col-5  ">
+    <label for="exampleFormControlInput1 ">Nome</label>
+    <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1">
+  
+  
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1">
+ 
+  
+    <label for="exampleFormControlInput1">Telefone</label>
+    <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1">
+  
+ 
+    <label for="exampleFormControlTextarea1">Mensagem</label>
+    <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+ 
+  <button type="submit" class="btn btn-primary mb-2 botao">Enviar</button>
+  </div>
+  <div><img src="/html/home/img/flor.avif" alt=""></div>
+</form>
+
+<footer>
+  <div class="logo-footer">
+    <h1 class="texto">
+      Tropical Garden
+    </h1>
+    <div class="logo">
+      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="70px" id="logo">
+     </div>
+    </div>
+  <div>
+     <h2 class="texto">
+      Siga nossas redes socias:
+     </h2>
+     <div class="redes-sociais">
+       <img src="html/home/img/icone-facebook.ico" alt="">
+       <p> Tropical Garden</p>
+       <img src="/html/home/img/twitter-icone.ico" alt="">
+     <p> @tropicalgarden</p>
+     <img src="/html/home/img/instagram-icone.ico" alt="">
+     <p> @tropicalgarden</p>
+   </div>
+  </div>
+   <div>
+     <h6>Atendimento ao cliente</h6>
+     <h6>Política de privacidade</h6>
+     <h6>Política de cookies</h6>
+     <h6>Sobre nós</h6>
+   </div>
+   <div class="copyright">
+     <hr>
+     <p>Copyright &copy; 2023. Tropical Garden. Todos os direitos reservados.</p>
+   </div>
+</footer>
+
+<div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","en"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+
+  <script>
+    $('.carrousel').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: true,
+          }
+        },
+        {
+          breakpoint: 479,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: true,
+          }
+        }
+
+      ]
+    });
+  </script>
+
+
+
+  <script>
+    $('.carrousel-feedback').slick({
+      centerMode: true,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      centerPadding: '60px',
+      slidesToShow: 2,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 479,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+  <script>var BotStar = { appId: "sf730c0ab-e1a5-4355-a04c-925d6a43b977", mode: "livechat" }; !function (t, a) { var e = function () { (e.q = e.q || []).push(arguments) }; e.q = e.q || [], t.BotStarApi = e; !function () { var t = a.createElement("script"); t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js"; var e = a.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) }(); }(window, document)</script>
+
+
+  <script src="js/boostrapjs/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/boostrapjs/popper.min.js"></script>
+  <script src="js/boostrapjs/bootstrap.js"></script>
+  <script src="js/home/home.js"></script>
+
+</body>
+
+</html>
