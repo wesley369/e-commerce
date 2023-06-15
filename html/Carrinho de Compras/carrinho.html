@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <link rel="stylesheet" href="/js/slick/slick/slick-theme.css">
   <meta charset="UTF-8">
@@ -12,131 +13,135 @@
 
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-   <header>
-     
-     <a href="/home.html"><img class="logo" src="/html/home/img/agoravai2.png" ></a>
-     <h1 class="titulo">Tropical Garden</h1>
-    
+  <header>
 
-   <div class="opcoes-icones">
-    <a href="/html/home/login.html"><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
-    <button class="dark-mode-toggle" ><img src="/html/home/img/contraste.svg" alt="" class="icone" id="contraste"></button>
-    <button class="aumentarFonteBtn"><img src="/html/home/img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
-  </div>
-</header>
+    <a href="/html/home/home.html"><img class="logo" src="/html/home/img/agoravai2.png"></a>
+    <h1 class="titulo">Tropical Garden</h1>
 
-   <main>
+
+    <div class="opcoes-icones">
+      <a href="/html/home/login.html"><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <button class="dark-mode-toggle"><img src="/html/home/img/contraste.svg" alt="" class="icone" id="contraste"></button>
+      <button class="aumentarFonteBtn"><img src="/html/home/img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+    </div>
+  </header>
+
+  <main>
     <h3>Meu Carrinho</h3>
-   </main>
+  </main>
 
-   <p class="guia">
-    <a href="/home.html">Home</a> / 
-    <a href="/html/Tela produtos/tela-produtos.html">Tela de Produtos</a> /
-    Carrinho de Compras
-  </p> 
-  
+  <p class="guia">
+    <a href="/html/home/home.html">Home</a> / Carrinho de Compras
+  </p>
+
   <!-- tabela de itens do carrinho -->
   <div class="content">
-  <section>
-    <table>
-      <thead>
-        <tr>
-          <th>Produto </th>
-          <th>Preço</th>
-          <th>Quantidade</th>
-          <th>Total</th>
-          <th>-</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>
-          <div class="produto">
-            <img src="/html/home/img/buqueflorescampo.webp" width="190px"   alt="">
-              <div class="nome">Buquê de Flores do campo</div>
-          </div>
-        </td>
-        <td>R$114,5</td>
-        <td>
-          <div class="qtde">
-            <button>-</button>
-            <span>2</span>
-            <button>+</button>
-          </div>
-        </td>
-        <td>R$228,10</td>
-        <td>
-          <button class="remover">
-          <i class='bx bx-x'></i></td>
-        </button>
-      </tr>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto </th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+            <th>-</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="produto">
+                <img src="/html/home/img/buqueflorescampo.webp" width="190px" alt="">
+                <div class="nome">Buquê de Flores do campo</div>
+              </div>
+            </td>
+            <td>R$114,5</td>
+            <td>
+              <div class="qtde">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>R$228,10</td>
+            <td>
+              <button class="remover">
+                <i class='bx bx-x'></i>
+            </td>
+            </button>
+          </tr>
 
-        <tr>
-        <td>
-          <div class="produto">
-            <img src="/html/home/img/astromeliasrosas.webp" width="190px"   alt="">
-              <div class="nome">Arranjo de Astromélias Rosas em Vaso</div>
-          </div>
-        </td>
-        <td>R$114,5</td>
-        <td>
-          <div class="qtde">
-            <button>-</button>
-            <span>2</span>
-            <button>+</button>
-          </div>
-        </td>
-        <td>R$228,10</td>
-        <td>
-          <button class="remover">
-          <i class='bx bx-x'></i></td>
-        </button>
-      </tr>
+          <tr>
+            <td>
+              <div class="produto">
+                <img src="/html/home/img/astromeliasrosas.webp" width="190px" alt="">
+                <div class="nome">Arranjo de Astromélias Rosas em Vaso</div>
+              </div>
+            </td>
+            <td>R$114,5</td>
+            <td>
+              <div class="qtde">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>R$228,10</td>
+            <td>
+              <button class="remover">
+                <i class='bx bx-x'></i>
+            </td>
+            </button>
+          </tr>
 
-      <tr>
-        <td>
-          <div class="produto">
-            <img src="/html/home/img/arranjo-orquideabranca.webp" width="190px"   alt="">
-              <div class="nome">Arranjo de Orquídea Branca em Bowl de Vidro</div>
-          </div>
-        </td>
-        <td>R$114,5</td>
-        <td>
-          <div class="qtde">
-            <button>-</button>
-            <span>2</span>
-            <button>+</button>
-          </div>
-        </td>
-        <td>R$228,10</td>
-        <td>
-          <button class="remover">
-          <i class='bx bx-x'></i></td> 
-        </button>
-      </tr>
-      </tbody>
-    </table>
+          <tr>
+            <td>
+              <div class="produto">
+                <img src="/html/home/img/arranjo-orquideabranca.webp" width="190px" alt="">
+                <div class="nome">Arranjo de Orquídea Branca em Bowl de Vidro</div>
+              </div>
+            </td>
+            <td>R$114,5</td>
+            <td>
+              <div class="qtde">
+                <button>-</button>
+                <span>2</span>
+                <button>+</button>
+              </div>
+            </td>
+            <td>R$228,10</td>
+            <td>
+              <button class="remover">
+                <i class='bx bx-x'></i>
+            </td>
+            </button>
+          </tr>
+        </tbody>
+      </table>
 
-  </section>
-  <aside>
-    <div class="box">
-      <header class="resumo-compra">Resumo da Compra</header>
-      <div class="informacao">
-        <div><span >Sub-Total:</span><span class="total">684,30</span></div>
-        <div><span ><br>Frete Gratuito</span></div>
-        <div><span >
-          <a href="/"><br>Adicionar Cupom de Desconto<br></a>
-        </span></div>
+    </section>
+    <aside>
+      <div class="box">
+        <header class="resumo-compra">Resumo da Compra</header>
+        <div class="informacao">
+          <div><span>Sub-Total:</span><span class="total">684,30</span></div>
+          <div><span><br>Frete Gratuito</span></div>
+          <div><span>
+              <a href="/"><br>Adicionar Cupom de Desconto<br></a>
+            </span></div>
+        </div>
+        <div>
+          <footer class="finalizar-compra">
+            <span>Total da Compra:</span>
+            <span>684,30</span>
+          </footer>
+        </div>
+        <button class="fim"><a href="/html/Finalizar Compra/finalizar-compra.html" id="fim-compra"> Finalizar Compra</a></button>
       </div>
-      <div><footer class="finalizar-compra">
-        <span>Total da Compra:</span>
-        <span>684,30</span>
-      </footer></div>
-      <button class="fim"><a href="/html/Finalizar Compra/finalizar-compra.html" id="fim-compra"> Finalizar Compra</a></button>
-    </div>
-  </aside>
-</div>
+    </aside>
+  </div>
 </body>
 
 <footer class="rodape">
@@ -146,37 +151,38 @@
     </h1>
     <div class="logo">
       <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="100px" id="logo">
-     </div>
     </div>
-  <div class="siga">
-     <h2>
-      Siga nossas redes socias:
-     </h2>
-     <div class="redes-sociais">
-       <img src="/html/home/img/icone-facebook.ico" alt="">
-       <p> Tropical Garden</p>
-       <img src="/html/home/img/twitter-icone.ico" alt="">
-     <p> @tropicalgarden</p>
-     <img src="/html/home/img/instagram-icone.ico" alt="">
-     <p> @tropicalgarden</p>
-   </div>
   </div>
-   <div class="opcoes-rodape">
-     <h6>Atendimento ao cliente</h6>
-     <h6>Política de privacidade</h6>
-     <h6>Política de cookies</h6>
-     <h6>Sobre nós</h6>
-   </div>
-   <div class="copyright">
-     <hr>
-     <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
-   </div>
+  <div class="siga">
+    <h2>
+      Siga nossas redes socias:
+    </h2>
+    <div class="redes-sociais">
+      <img src="/html/home/img/icone-facebook.ico" alt="">
+      <p> Tropical Garden</p>
+      <img src="/html/home/img/twitter-icone.ico" alt="">
+      <p> @tropicalgarden</p>
+      <img src="/html/home/img/instagram-icone.ico" alt="">
+      <p> @tropicalgarden</p>
+    </div>
+  </div>
+  <div class="opcoes-rodape">
+    <h6>Atendimento ao cliente</h6>
+    <h6>Política de privacidade</h6>
+    <h6>Política de cookies</h6>
+    <h6>Sobre nós</h6>
+  </div>
+  <div class="copyright">
+    <hr>
+    <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
+  </div>
 </footer>
 
 <div class="gtranslate_wrapper"></div>
-<script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","en"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+<script>window.gtranslateSettings = { "default_language": "pt", "languages": ["pt", "es", "en"], "globe_color": "#66aaff", "wrapper_selector": ".gtranslate_wrapper", "horizontal_position": "left", "vertical_position": "bottom", "alt_flags": { "en": "usa", "pt": "brazil" } }</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
 
 
 <script>var BotStar = { appId: "sf730c0ab-e1a5-4355-a04c-925d6a43b977", mode: "livechat" }; !function (t, a) { var e = function () { (e.q = e.q || []).push(arguments) }; e.q = e.q || [], t.BotStarApi = e; !function () { var t = a.createElement("script"); t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js"; var e = a.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) }(); }(window, document)</script>
+
 </html>
