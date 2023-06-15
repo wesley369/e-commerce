@@ -6,58 +6,63 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button{
-	cursor: pointer;
+body {
+	background-color: #dd9bfc59; /* Cor de fundo do modo claro */
+  color: #000000; /* Cor do texto do modo claro */
 }
-header{
+
+body.dark-mode {
+  background-color: #000000; /* Cor de fundo do modo escuro */
+  color: #ffffff; /* Cor do texto do modo escuro */
+}
+
+html{
+  background-color: #dd9bfc59;
+}
+
+.content {
+  background-color: #dd9bfc59;
+  margin-bottom: 0.4%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.header{
   display: flex;
+  align-items: baseline;
   background-color: #EF216B;
   padding: 0.5% 5%;
-	gap: 3%;
-	margin-bottom: 0.1%;
-  align-items: baseline;
-  justify-content: baseline;
-  
-
-}
-.cabecalho{
-  display: flex;
-  justify-content: left;
-}
-.logo{
-  width: 5%;
-  height: 101%;
-  border-radius: 50%;
+  gap: 3%;
+  margin-bottom: 0.1%;
 }
 
-.titulo{
+#logo{
+  border-radius: 100%;
+}
+
+.texto{
   color: white;
-  font-family: 'Great Vibes', cursive;
-  margin-left: 3%;
-  align-items: last baseline;
-  padding: 0.3% 0%;
+	font-family: 'Great Vibes', cursive;
+  align-self: flex-end;
 }
-/* .icon-box {
-  /* align-content: space-between;
-  justify-content: space-between; 
-  margin-left: 60%;
-  padding: 0 1%;
-  align-items: baseline;
- /* display: flex;
-  column-gap: 8px;
-  justify-content:  baseline; }*/
+
+button{
+  cursor: pointer;
+}
 
   main{
-    background-color: #eb83a9fd;
-	  color: #fafafa;
-    text-align: center;
-    justify-content: center;
+  background-color: #00000096;
+	color: #f9f7fa;
+  text-align: center;
+  height: 35px;
+  margin-bottom: 0.2%;
   }
 
   .guia{
     color: rgb(156, 156, 156);
 	  margin-left: 1%;
     font-size: 90%;
+
   }
 
   .guia a{
@@ -66,9 +71,7 @@ header{
   
   .content{
    padding: 0 5%;
-   margin-top: 4%;
-   
-   
+   margin-top: 0%;
    
   }
 
@@ -81,4 +84,68 @@ header{
     font-size: 14px;
   }
 
- 
+  .rodape{
+    background-color: #EF216B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5%;
+    margin-top: 5%;
+    align-items: first baseline;
+    padding-top: 1%;
+    margin-top: 0;
+  } 
+  
+   footer h6{
+    text-align: end;
+    vertical-align: bottom;
+    padding: 2%;
+    color: white;
+  }
+  
+  .texto-garden{
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    
+  }
+  
+  .logo-footer{
+    font-family: 'Great Vibes', cursive;
+    color: white; 
+    align-self: flex-start;
+  }
+
+  .copyright{
+    grid-column: span 3;
+  }
+
+  .copyright p{
+    text-align: center;
+    color: #EF216B;
+  }
+  
+  h2{
+    font-family: 'Great Vibes', cursive;
+    color: white; 
+    align-self: flex-start;
+  }
+
+  .redes-sociais{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+  
+  .redes{
+    color: white;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .redes-sociais > p{
+    align-self: last baseline;
+    margin-left: 2%;
+    color: #ebd4f5cb;
+  }
+  
+  .btn {
+    margin-top: 1%;
+  }

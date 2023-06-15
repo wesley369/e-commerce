@@ -11,40 +11,29 @@
 </head>
 <body>
   <header>
-    <div class="cabecalho">
-    <a href="/html/home/home.html"><img class="logo" src="/html/home/img/agoravai2.png" ></a>
-   <h1 class="titulo">Tropical Garden</h1>
-  </div>
-  
-  <!-- <div class="icon-box">
-    <a href="login.html"><img src="/html/home/img/user-icone.svg" width="23px" height="100px" alt="user" class="icone" id="user"></a>
-    <a href=""><img src="/html/home/img/contraste.svg" alt="" class="icone" id="contraste"></a>
-    <a href=""><img src="/html/home/img/tipografia.svg" width="15px" height="90px" alt="" class="icone" id="tipografia"></a>
-  </div> -->
+  <div class="header sticky-top">
+    <div class="logo">
+     <a href="/html/home/home.html"><img src="/html/home/img/agoravai2.png" alt="" width="60px" height="60px" id="logo"></a>
+
+    </div>
+    <h1 class="texto">
+      Tropical Garden
+    </h1>
   </header>
 
   <main>
     <h3>Finalizar Compra</h3>
   </main>
 
-  <p class="guia">
-    <a href="/html/home/home.html" id="home">Home</a> / 
-    <a href="/html/Tela produtos/tela-produtos.html" id="tela-produto">Tela de Produtos</a> /
-    <a href="/html/Carrinho de Compras/carrinho.html" id="carrinho-compras">Carrinho de Compras</a> /
-    Finalizar Compra
-  </p> 
-
-  <!-- aqui é o menu burguer do guia de páginas
-  <button class="menu-toggle"><img src="/html/home/img/menu-burguer.png" alt="" height="25px" width="25px"></button>
-
-  <ul class="menu ">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#tela-produto">Tela de Produtos</a></li>
-    <li><a href="#carrinho-compras">Carrinho de Compras</a></li>
-  </ul> -->
-
 <div class="content">
   <section>
+
+    <p class="guia">
+      <a href="/html/home/home.html" id="home">Home</a> / 
+      <a href="/html/Tela produtos/tela-produtos.html" id="tela-produto">Tela de Produtos</a> /
+      <a href="/html/Carrinho de Compras/carrinho.html" id="carrinho-compras">Carrinho de Compras</a> /
+      Finalizar Compra
+    </p> 
 
         <!-- Dados Pessoais para o pagamento/entrega -->
     <div class="dados-pessoais">
@@ -69,8 +58,8 @@
             <label for="inputPassword4">Contato</label>
             <input type="text" class="form-control" id="inputPassword4" placeholder="Insira seu número de contato com DDD">
           </div> 
-
         </div>
+
         <div class="form-group">
           <label for="inputAddress">Endereço</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="Ex: Rua dos Bobos, nº 0">
@@ -138,9 +127,7 @@
             </label>
           </div>
         </div>
-        
       </form>
-
     </div>
 
           <!-- Aqui é a seleção de forma de pagamento -->
@@ -178,17 +165,53 @@
   </section>
   </div>
 
-</div>
-
-
-
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </body>
+
+<footer class="rodape">
+  <div class="logo-footer">
+    <h1 class="texto-garden">
+      Tropical Garden
+    </h1>
+    <div class="logo">
+      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="100px" id="logo">
+     </div>
+    </div>
+
+  <div class="redes">
+     <h2>
+      Siga nossas redes socias:
+     </h2>
+     <div class="redes-sociais">
+       <img src="/html/home/img/icone-facebook.ico" alt="">
+       <p> Tropical Garden</p>
+       <img src="/html/home/img/twitter-icone.ico" alt="">
+     <p> @tropicalgarden</p>
+     <img src="/html/home/img/instagram-icone.ico" alt="">
+     <p> @tropicalgarden</p>
+   </div>
+  </div>
+
+   <div class="opcoes-rodape">
+     <h6>Atendimento ao cliente</h6>
+     <h6>Política de privacidade</h6>
+     <h6>Política de cookies</h6>
+     <h6>Sobre nós</h6>
+   </div>
+   
+   <div class="copyright">
+     <hr>
+     <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
+   </div>
+</footer>
+
+<div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","en"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+
+
+<script>var BotStar = { appId: "sf730c0ab-e1a5-4355-a04c-925d6a43b977", mode: "livechat" }; !function (t, a) { var e = function () { (e.q = e.q || []).push(arguments) }; e.q = e.q || [], t.BotStarApi = e; !function () { var t = a.createElement("script"); t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js"; var e = a.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) }(); }(window, document)</script>
 </html>
