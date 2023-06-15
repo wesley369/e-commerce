@@ -159,7 +159,7 @@ body.dark-mode {
   font-size: 1.8rem;
 }
 .imgFundo3 {
-  background-image: url(/html/menu/img/arranjos);
+  background-image: url(/html/menu/img/planta7);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -335,7 +335,6 @@ body.dark-mode {
     height: auto;
     margin-left: 30px;
   }
- 
 
   footer #logo {
     height: 60px;
