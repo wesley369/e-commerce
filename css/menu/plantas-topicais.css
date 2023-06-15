@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+body {
+  background-color: #ffffff; /* Cor de fundo do modo claro */
+  color: #000000; /* Cor do texto do modo claro */
+}
+
+body.dark-mode {
+  background-color: #000000; /* Cor de fundo do modo escuro */
+  color: #ffffff; /* Cor do texto do modo escuro */
+}
+
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #ff0079;
+  padding: 0.5% 5%;
+  gap: 3%;
+}
+
+.icon-box{
+  display: flex;
+  column-gap: 8px;
+  justify-content:  baseline;
+}
+
+#logo{
+  
+  height: 100%;
+  border-radius: 50%;
+}
+
+.texto{
+  align-self: flex-end;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  
+}
+.aumentarFonteBtn{
+  width: 17px;
+  height: 10px;
+  background-color: #ff0079;
+  border: none;
+}
+
+
+#user{
+  width: 25px;
+  height: 29px;
+  
+}
+.dark-mode-toggle{
+  background-color: #ff0079;
+  border: none;
+  width: 25px;
+  height: 21px;
+}
+
+
+.search-box {
+  background-color: white;
+  border-radius: 40px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-text {
+  background: none;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.search-btn {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.loupe {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+
+
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-content: center;
+  padding: 1% 5%;
+  column-gap: 2%;
+  background-color: #9effb6fd;
+  margin-bottom: 0;
+
+}
+
+.menu li a{
+  color: black;
+  border-radius: 6px;
+  
+  padding: 3px 5px 3px 5px;
+  text-decoration: none;
+  
+}
+.menu li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color:#ff0079;
+}
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-toggle{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.guia{
+color: rgb(156, 156, 156);
+margin-left: 1%;
+}
+
+.guia a{
+  color: #ff0079;
+}
