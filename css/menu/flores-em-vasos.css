@@ -150,7 +150,7 @@ body.dark-mode {
   grid-template-rows: 100%;
 }
 
-.sobre-nos1.imgFundo2 h4 {
+.sobre-nos1.imgFundo1 h4 {
   font-size: 3.5rem;
   background-color: none;
 }
@@ -158,8 +158,8 @@ body.dark-mode {
 .sobre-nos1 p {
   font-size: 1.8rem;
 }
-.imgFundo2 {
-  background-image: url(/html/menu/img/astromelia-amarela.webp);
+.imgFundo1 {
+  background-image: url(/html/menu/img/arranjos);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -325,17 +325,16 @@ body.dark-mode {
     padding-top: 10px;
   }
 
-  .sobre-nos1.imgFundo2 h4 {
+  .sobre-nos1.imgFundo1 h4 {
     font-size: 1.5rem;
   }
   .sobre-nos1 p {
     font-size: 1rem;
   }
-  .imgFundo2 {
+  .imgFundo1 {
     height: auto;
     margin-left: 30px;
   }
- 
 
   footer #logo {
     height: 60px;
