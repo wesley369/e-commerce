@@ -172,6 +172,11 @@ h4{
   
 }
 
+.item-carrousel a{
+  text-decoration: none;
+  color: black;
+}
+
 .card-info-produto button{
   background-color: rgb(243, 243, 243);
   border: none;
@@ -479,12 +484,12 @@ input[type="text"] {
   }
   .item-carrousel{
    width: 20px;
-   height: 200px;
+   height: 250px;
    background-color: #EF216B;
   }
  
   .carrousel img{
-   height: 60%;
+   height: 70%;
     
   }
   .card-info-produto{
