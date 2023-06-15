@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-html{
-	height: 100%;
+  font-size: 1rem;
 }
 body {
-	background-color: #dd9bfc59; /* Cor de fundo do modo claro */
+  background-color: #ffffff; /* Cor de fundo do modo claro */
   color: #000000; /* Cor do texto do modo claro */
 }
 
@@ -18,34 +17,33 @@ body.dark-mode {
   color: #ffffff; /* Cor do texto do modo escuro */
 }
 
-
-#user{
-	color: #000000;
-	width: 25px;
-  height: 29px;
-}
-	#contraste{
-		color: #000000;
-}
-#tipografia{
-	color: #000000;
-	width: 16px;
-	
+.header{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #ff0079;
+  padding: 0.5% 5%;
+  gap: 3%;
 }
 
-.opcoes-icones{
-	padding: 0.9%;
+.icon-box{
+  display: flex;
   column-gap: 8px;
-	justify-content: baseline;
-	margin-left: 60%;
-	
+  justify-content:  baseline;
 }
 
-
-button{
-	cursor: pointer;
+#logo{
+  
+  height: 100%;
+  border-radius: 50%;
 }
 
+.texto{
+  align-self: flex-end;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  
+}
 .aumentarFonteBtn{
   width: 17px;
   height: 10px;
@@ -53,6 +51,12 @@ button{
   border: none;
 }
 
+
+#user{
+  width: 25px;
+  height: 29px;
+  
+}
 .dark-mode-toggle{
   background-color: #EF216B;
   border: none;
@@ -60,44 +64,92 @@ button{
   height: 21px;
 }
 
-header {
-	width: 100%;
-	height: 73px;
-	display: flex;
-	background-color: #EF216B;
-	padding: 0.5% 5%;
-	margin-bottom: 0.1%;
-	
+
+.search-box {
+  background-color: white;
+  border-radius: 40px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.logo{
-	height: 101%;
+.search-text {
+  background: none;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.search-btn {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-	
+  cursor: pointer;
 }
 
-.titulo{
-	margin-left: 3%;
-	padding: 0.3% 0%;
-	text-align: start;
-	color: white;
-	font-family: 'Great Vibes', cursive;
-	align-content: flex-start;
-	
+.loupe {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
+
+
+
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-content: center;
+  padding: 1% 5%;
+  column-gap: 2%;
+  background-color: #eb83a985;
+  margin-bottom: 0;
+
+}
+
+.menu li a{
+  color: black;
+  border-radius: 6px;
+  
+  padding: 3px 5px 3px 5px;
+  text-decoration: none;
+  
+}
+.menu li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color:#ff0079;
+}
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-toggle{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
 
 main{
 	background-color: rgba(156, 156, 156, 0.733);
 	color: #f9f7fa;
-}
-h3{
 	text-align: center;
-	color: white;
 }
 
-.guia{
-	color: rgb(156, 156, 156);
-	margin-left: 1%;
+.breadcrumb{
+	background-color: white;
 }
 
 .content{
@@ -153,13 +205,13 @@ a{
 	margin: 0 5px;
  }
 
- button{
+ td button{
 	background: transparent;
 	border: 0;
 	padding: 0 10px;
  }
 
- button:hover {
+ td button:hover {
 	background-color: #eb83a9c7;
 }
 aside{
@@ -220,60 +272,50 @@ aside{
 	justify-self: end;
 } 
 
- footer h6{
-  text-align: end;
-  vertical-align: bottom;
-  padding: 2%;
-	color: white;
-}
-
-.texto-garden{
-  color: white;
-  font-family: 'Great Vibes', cursive;
-  
-}
-
-.logo-footer{
-   font-family: 'Great Vibes', cursive;
-  color: white; 
-	align-self: flex-start;
-}
-.copyright{
-  grid-column: span 3;
-}
-.copyright p{
-  text-align: center;
-	color: #EF216B;
-}
-
-.redes-sociais{
-	display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-	
-}
-
-.siga{
-	font-family: 'Great Vibes', cursive;
-	color: white;
-}
-
-.redes-sociais > p{
-  align-self: last baseline;
-  margin-left: 2%;
-	color: #ebd4f5cb;
-}
 
 
-#logo{
-	border-radius: 100%;
-}
 .produto:hover{
   transform: scale(1.1);
   transition: 0.7s;
 	box-shadow: #e90f8e;
 }
 
+footer{
+	background-color: #EF216B;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 0 5%;
+	margin-top: 5%;
+	align-items: first baseline;
+	padding-top: 1%;
+	color: white;
+  }
+  
+  h6{
+	text-align: end;
+	vertical-align: bottom;
+	padding: 2%;
+  
+  }
+  .logo-footer{
+	align-self: flex-start;
+  }
+  .copyright{
+	grid-column: span 3;
+  }
+  .copyright p{
+	text-align: center;
+  }
+  
+  .redes-sociais{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+  }
+  .redes-sociais > p{
+	align-self: last baseline;
+	margin-left: 2%;
+  }
 
 /*trasição da fonte aumentar e diminuir*/
 h1, h2, h3, h4, h5, h6 {
@@ -295,7 +337,7 @@ input[type="text"] {
 	display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
 	.menu-toggle {
 		display: none;
 		
@@ -312,45 +354,82 @@ input[type="text"] {
 @media (max-width: 767px) {
 	.menu-toggle {
 		display: block;
-  }
+	  }
 	
-  .menu {
+	  .menu {
 		display: none;
-    opacity: 0; 
-    
-  }
-	
-  .menu.active {
-		display: block;
-    opacity: 1;
-    position: fixed;
-    z-index: 9999;
-    width: 100vw;
-    background-color: #EF216B;
-  }
-  .menu li {
-		margin-top: 5%;
-    
-  }
-  
-	
-  .menu .icon-box{
-		display: flex;
-    column-gap: 8px;
+		opacity: 0; 
 		
-    align-items: center;
-  }
-  .menu  img{
+	  }
+	
+	  .menu.active {
+		display: block;
+		opacity: 1;
+		position: fixed;
+		z-index: 9999;
+		width: 100vw;
+		background-color: #EF216B;
+	  }
+	  .menu li {
+		margin-top: 5%;
+		
+	  }
+	  
+	
+	  .menu .icon-box{
 		display: flex;
-    background-color: none;
-    
-  }
-  html{
+		column-gap: 8px;
+	
+		align-items: center;
+	  }
+	  .menu  img{
+		display: flex;
+		background-color: none;
+		
+	  }
+		#tipografia{
+		  margin-top: -5px;
+		}
+	  html{
 		font-size: 0.65rem;
-  }
-}
+	  }
+	  .header{
+		align-items: center;
+	  }
+	  .header .logo{
+		display: none;
+	  }
+	  .search-box {
+		width: 130px;
+		height: 8px;
+		padding: 6px;
+		border-radius: 10px;
+	  }
+	  .search-text{
+		font-size: 8px;
+		padding: 0 2px;
+	  }
+	  .loupe{
+		width: 10px;
+		height: 10px;
+	  }
+	  .search-btn{
+		height: 15px;
+	  }
+	  
+	  footer{
+		column-gap: 20px;
+		padding-top: 3%;
+	   }
+	   .redes-sociais img{
+		  width: 15px;
+		  height: 15px;
+	   }
+	   footer #logo{
+		  height: 60px;
+		  width: 60px;
+	   }
+  
+	}
 
-
-@media (max-width: 420px) {
-
-} 
+	

@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-  <link rel="stylesheet" href="/js/slick/slick/slick-theme.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,26 +14,63 @@
 </head>
 
 <body>
-  <header>
+  <div class="header sticky-top">
+    <div class="logo">
+      <a href="/home.html"><img src="/html/home/img/agoravai2.png" alt="" width="60px" height="70px" id="logo"></a>
 
-    <a href="/html/home/home.html"><img class="logo" src="/html/home/img/agoravai2.png"></a>
-    <h1 class="titulo">Tropical Garden</h1>
-
-
-    <div class="opcoes-icones">
-      <a href="/html/home/login.html"><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
-      <button class="dark-mode-toggle"><img src="/html/home/img/contraste.svg" alt="" class="icone" id="contraste"></button>
-      <button class="aumentarFonteBtn"><img src="/html/home/img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
     </div>
-  </header>
+    <h1 class="texto">
+      Tropical Garden
+    </h1>
+    <div class="search-box">
+      <input type="text" class="search-text" placeholder="Pesquisar...">
+      <a class="search-btn">
+        <img class="loupe" src="/html/home/img/pesquisa.png" alt="Lupa">
+      </a>
+    </div>
+
+    <div class="icon-box  ">
+      <a href="/html/home/login.html"><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href="/html/Carrinho de Compras/carrinho.html"><img src="/html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="dark-mode-toggle"><img src="img/contraste.svg" alt="" class="icone" id="contraste"></button>
+      <button class="aumentarFonteBtn"><img src="img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+    </div>
+    
+    <button class="menu-toggle"><img src="/html/home/img/menu-burguer.png" alt="" height="25px" width="25px"></button>
+  </div>
+
+  <ul class="menu ">
+    <div class="icon-box ">
+      <a href=""><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href=""><img src="/html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="aumentarFonteBtn"><img src="img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+      <button class="dark-mode-toggle"><img src="img/contraste.svg" alt="" class="icone" id="contraste"></button>
+    </div>
+
+    <li><a href="#">Plantas Tropicais</a></li>
+    <hr>
+    <li><a href="#">Presentes especiais</a></li>
+    <hr>
+    <li><a href="#">Arranjos de Flores</a></li>
+    <hr>
+    <li><a href="#">Flores em vasos</a></li>
+    <hr>
+    <li><a href="#">Buquês de flores</a></li>
+    <hr>
+    <li><a href="#">Ocasiões</a></li>
+    <hr>
+  </ul>
 
   <main>
     <h3>Meu Carrinho</h3>
   </main>
 
-  <p class="guia">
-    <a href="/html/home/home.html">Home</a> / Carrinho de Compras
-  </p>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/home.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Carrinho de compras</li>
+    </ol>
+  </nav>
 
   <!-- tabela de itens do carrinho -->
   <div class="content">
@@ -144,38 +180,38 @@
   </div>
 </body>
 
-<footer class="rodape">
+<footer>
   <div class="logo-footer">
-    <h1 class="texto-garden">
+    <h1 class="texto">
       Tropical Garden
     </h1>
     <div class="logo">
-      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="100px" id="logo">
+      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="70px" id="logo">
+     </div>
     </div>
-  </div>
-  <div class="siga">
-    <h2>
+  <div>
+     <h2 class="texto">
       Siga nossas redes socias:
-    </h2>
-    <div class="redes-sociais">
-      <img src="/html/home/img/icone-facebook.ico" alt="">
-      <p> Tropical Garden</p>
-      <img src="/html/home/img/twitter-icone.ico" alt="">
-      <p> @tropicalgarden</p>
-      <img src="/html/home/img/instagram-icone.ico" alt="">
-      <p> @tropicalgarden</p>
-    </div>
+     </h2>
+     <div class="redes-sociais">
+       <img src="/html/home/img/icone-facebook.ico" alt="">
+       <p>Tropical Garden</p>
+       <img src="/html/home/img/twitter-icone.ico" alt="">
+     <p>@tropicalgarden</p>
+     <img src="/html/home/img/instagram-icone.ico" alt="">
+     <p>@tropicalgarden</p>
+   </div>
   </div>
-  <div class="opcoes-rodape">
-    <h6>Atendimento ao cliente</h6>
-    <h6>Política de privacidade</h6>
-    <h6>Política de cookies</h6>
-    <h6>Sobre nós</h6>
-  </div>
-  <div class="copyright">
-    <hr>
-    <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
-  </div>
+   <div>
+     <h6>Atendimento ao cliente</h6>
+     <h6>Política de privacidade</h6>
+     <h6>Política de cookies</h6>
+     <h6>Sobre nós</h6>
+   </div>
+   <div class="copyright">
+     <hr>
+     <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
+   </div>
 </footer>
 
 <div class="gtranslate_wrapper"></div>
@@ -184,5 +220,7 @@
 
 
 <script>var BotStar = { appId: "sf730c0ab-e1a5-4355-a04c-925d6a43b977", mode: "livechat" }; !function (t, a) { var e = function () { (e.q = e.q || []).push(arguments) }; e.q = e.q || [], t.BotStarApi = e; !function () { var t = a.createElement("script"); t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js"; var e = a.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) }(); }(window, document)</script>
+
+<script src="/js/Carrinho de compras/carrinho.js"></script>
 
 </html>
