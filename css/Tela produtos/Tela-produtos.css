@@ -200,10 +200,13 @@ span{
   
 }
 
+
 .endereco2{
   background-color: rgba(255, 255, 255, 0.836);
   width: 60%;
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: center;
+  
 }
 
 
