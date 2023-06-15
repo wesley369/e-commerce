@@ -68,5 +68,5 @@ Login_btn.addEventListener('click', () => {
 });
 
 function login() {
-    window.location.href = "página.html";
+    window.location.href = "index.html";
 }
