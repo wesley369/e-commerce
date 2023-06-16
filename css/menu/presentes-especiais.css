@@ -140,13 +140,14 @@ body.dark-mode {
 }
 
 .sobre-nos1 {
-  
- 
+  display: grid;
+  margin: 3% 5%;
   color: white;
   text-align: center;
   border-radius: 10px;
   align-self: center;
   height: 100%;
+  grid-template-rows: 100%;
 
 }
 
@@ -165,10 +166,11 @@ body.dark-mode {
 .imgFundo2 {
   background-image: url(/html/menu/img/astromelia-amarela.webp);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   height: auto;
-  width: 100vw;
+  width: 90vw;
+  margin-left: 58px;
   
 }
 

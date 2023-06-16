@@ -141,13 +141,15 @@ body.dark-mode {
 }
 
 .sobre-nos1 {
-  
- 
+  display: grid;
+  margin: 3% 5%;
   color: white;
   text-align: center;
   border-radius: 10px;
   align-self: center;
   height: 100%;
+  grid-template-rows: 100%;
+
 
 }
 
@@ -158,6 +160,7 @@ body.dark-mode {
 .sobre-nos1.imgFundo1 h4 {
   font-size: 3.5rem;
   background-color: none;
+  
 }
 
 .sobre-nos1 p {
@@ -166,11 +169,11 @@ body.dark-mode {
 .imgFundo1 {
   background-image: url(/html/home/img/plantasTropicais2);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   height: auto;
-  width: 100vw;
-  
+  width: 90vw;
+  margin-left: 58px;
 }
 
 .desfoque1 {
