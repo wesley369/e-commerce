@@ -11,7 +11,7 @@ button{
 }
 header{
   display: flex;
-  background-color: #EF216B;
+  background-color: #ff0079;
   padding: 0.5% 5%;
 	gap: 3%;
 	margin-bottom: 0.1%;
@@ -38,7 +38,7 @@ header{
 }
 
 main{
-  background-color: #eb83a9fd;
+  background-color: #eb83a985;
   color: #fafafa;
   text-align: center;
   justify-content: center;
@@ -51,7 +51,7 @@ main{
 }
 
 .guia a{
-  color: #ec4985fd;
+  color: #eb83a985;
 }
 
 .content{

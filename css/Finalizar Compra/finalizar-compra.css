@@ -21,7 +21,7 @@ body.dark-mode {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  background-color: #EF216B;
+  background-color: #ff0079;
   padding: 0.5% 5%;
   gap: 3%;
 }
@@ -47,7 +47,7 @@ body.dark-mode {
 .aumentarFonteBtn{
   width: 17px;
   height: 10px;
-  background-color: #EF216B;
+  background-color: #ff0079;
   border: none;
 }
 
@@ -58,7 +58,7 @@ body.dark-mode {
   
 }
 .dark-mode-toggle{
-  background-color: #EF216B;
+  background-color: #ff0079;
   border: none;
   width: 25px;
   height: 21px;
@@ -112,7 +112,7 @@ body.dark-mode {
   align-content: center;
   padding: 1% 5%;
   column-gap: 2%;
-  background-color: #9effb6fd;
+  background-color: #eb83a985;
   margin-bottom: 0;
 
 }
@@ -120,7 +120,7 @@ body.dark-mode {
 .menu li a{
   color: black;
   border-radius: 6px;
-  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 3px 5px 3px 5px;
   text-decoration: none;
   
@@ -173,7 +173,7 @@ body.dark-mode {
   }
 
   footer{
-    background-color: #EF216B;
+    background-color: #ff0079;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 5%;
@@ -244,7 +244,7 @@ body.dark-mode {
         position: fixed;
         z-index: 9999;
         width: 100vw;
-        background-color: #EF216B;
+        background-color: #ff0079;
       }
       .menu li {
         margin-top: 5%;
