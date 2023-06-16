@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
 
 * {
   margin: 0;
@@ -26,6 +27,11 @@ body.dark-mode {
   gap: 3%;
 }
 
+
+.desfoque3 p{
+  font-family: "font-awesome", bold;
+}
+
 .icon-box1 {
   display: flex;
   column-gap: 8px;
@@ -37,7 +43,7 @@ body.dark-mode {
   border-radius: 50%;
 }
 
-.texto1 {
+.texto1{
   align-self: flex-end;
   color: white;
   font-family: "Great Vibes", cursive;
