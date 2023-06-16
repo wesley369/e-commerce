@@ -4,36 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tropical Garden</title>
-  <link rel="stylesheet" href="/css/Finalizar Compra/finalizar-compra.css">
   <link rel="stylesheet" href="/css/home/bootstrap.css">
+  <link rel="stylesheet" href="/css/Finalizar Compra/finalizar-compra.css">
   <link rel="shortcut icon" href="img/logo2.jpeg" type="image/x-icon">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <header>
+
   <div class="header sticky-top">
     <div class="logo">
-     <a href="/home.html"><img src="/html/home/img/agoravai2.png" alt="" width="60px" height="60px" id="logo"></a>
+      <a href="/home.html"><img src="/html/home/img/agoravai2.png" alt="" width="60px" height="70px" id="logo"></a>
 
     </div>
     <h1 class="texto">
       Tropical Garden
     </h1>
-  </header>
+    <div class="search-box">
+      <input type="text" class="search-text" placeholder="Pesquisar...">
+      <a class="search-btn">
+        <img class="loupe" src="/html/home/img/pesquisa.png" alt="Lupa">
+      </a>
+    </div>
+
+    <div class="icon-box  ">
+      <a href="/html/home/login.html"><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href="/html/Carrinho de Compras/carrinho.html"><img src="/html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="dark-mode-toggle"><img src="img/contraste.svg" alt="" class="icone" id="contraste"></button>
+      <button class="aumentarFonteBtn"><img src="img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+    </div>
+    
+    <button class="menu-toggle"><img src="/html/home/img/menu-burguer.png" alt="" height="25px" width="25px"></button>
+  </div>
+
+  <ul class="menu ">
+    <div class="icon-box ">
+      <a href=""><img src="/html/home/img/user-icone.svg" alt="user" class="icone" id="user"></a>
+      <a href=""><img src="/html/home/img/carrinho-icone.svg" alt="carrinho" class="icone"></a>
+      <button class="aumentarFonteBtn"><img src="img/tipografia.svg" alt="" class="icone" id="tipografia"></button>
+      <button class="dark-mode-toggle"><img src="img/contraste.svg" alt="" class="icone" id="contraste"></button>
+    </div>
+
+    <li><a href="#">Plantas Tropicais</a></li>
+    <hr>
+    <li><a href="#">Presentes especiais</a></li>
+    <hr>
+    <li><a href="#">Arranjos de Flores</a></li>
+    <hr>
+    <li><a href="#">Flores em vasos</a></li>
+    <hr>
+    <li><a href="#">Buquês de flores</a></li>
+    <hr>
+    <li><a href="#">Ocasiões</a></li>
+    <hr>
+  </ul>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/home.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Tela de produtos</li>
+    </ol>
+  </nav>
 
   <main>
     <h3>Finalizar Compra</h3>
   </main>
 
-<div class="content">
-  <section>
 
-    <p class="guia">
-      <a href="/home.html" id="home">Home</a> / 
-      <a href="/html/Tela produtos/tela-produtos.html" id="tela-produto">Tela de Produtos</a> /
-      <a href="/html/Carrinho de Compras/carrinho.html" id="carrinho-compras">Carrinho de Compras</a> /
-      Finalizar Compra
-    </p> 
 
         <!-- Dados Pessoais para o pagamento/entrega -->
     <div class="dados-pessoais">
@@ -165,48 +201,45 @@
   </section>
   </div>
 
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-</body>
-
-<footer class="rodape">
+  <footer>
   <div class="logo-footer">
-    <h1 class="texto-garden">
+    <h1 class="texto">
       Tropical Garden
     </h1>
     <div class="logo">
-      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="100px" id="logo">
+      <img src="/html/home/img/agoravai2.png" alt="" width="100px" height="70px" id="logo">
      </div>
     </div>
-
-  <div class="redes">
-     <h2>
+  <div>
+     <h2 class="texto">
       Siga nossas redes socias:
      </h2>
      <div class="redes-sociais">
        <img src="/html/home/img/icone-facebook.ico" alt="">
-       <p> Tropical Garden</p>
+       <p>Tropical Garden</p>
        <img src="/html/home/img/twitter-icone.ico" alt="">
-     <p> @tropicalgarden</p>
+     <p>@tropicalgarden</p>
      <img src="/html/home/img/instagram-icone.ico" alt="">
-     <p> @tropicalgarden</p>
+     <p>@tropicalgarden</p>
    </div>
   </div>
-
-   <div class="opcoes-rodape">
+   <div>
      <h6>Atendimento ao cliente</h6>
      <h6>Política de privacidade</h6>
      <h6>Política de cookies</h6>
      <h6>Sobre nós</h6>
    </div>
-   
    <div class="copyright">
      <hr>
      <p>Copyright &copy; 2023 Tropical Garden. Todos os direitos reservados.</p>
    </div>
 </footer>
+
+
+<script src="/js/boostrapjs/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/boostrapjs/popper.min.js"></script>
+<script src="/js/boostrapjs/bootstrap.js"></script>
+
 
 <div class="gtranslate_wrapper"></div>
 <script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","en"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil"}}</script>
@@ -214,4 +247,8 @@
 
 
 <script>var BotStar = { appId: "sf730c0ab-e1a5-4355-a04c-925d6a43b977", mode: "livechat" }; !function (t, a) { var e = function () { (e.q = e.q || []).push(arguments) }; e.q = e.q || [], t.BotStarApi = e; !function () { var t = a.createElement("script"); t.type = "text/javascript", t.async = 1, t.src = "https://widget.botstar.com/static/js/widget.js"; var e = a.getElementsByTagName("script")[0]; e.parentNode.insertBefore(t, e) }(); }(window, document)</script>
+
+<script src="/js/finalizar-compra/finalizar-compra.js"></script>
+</body>
+
 </html>

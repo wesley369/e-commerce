@@ -236,6 +236,9 @@ body.dark-mode {
 .slick-next1::before {
   color: black;
 }
+.hide {
+  display: none;
+}
 
 @media (min-width: 767px) {
   .menu-toggle1 {
