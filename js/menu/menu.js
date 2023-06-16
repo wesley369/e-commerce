@@ -1,5 +1,5 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const menu = document.querySelector('.menu');
+const menuToggle = document.querySelector('.menu-toggle1');
+const menu = document.querySelector('.menu1');
 
 
 menuToggle.addEventListener('click', () => {
@@ -75,7 +75,7 @@ function isEmpty(obj) {
 
 function verificarTamanhoTela() {
   const larguraTela = window.innerWidth;
-  const divIconBox = document.querySelector(".icon-box");
+  const divIconBox = document.querySelector(".icon-box1");
 
   if (larguraTela < 767) {
     divIconBox.classList.add("hide");
