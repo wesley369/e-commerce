@@ -240,7 +240,7 @@ body.dark-mode {
 
 
 footer{
-  background-color: #EF216B;
+  background-color: #ff0079;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 5%;
@@ -307,7 +307,7 @@ h6{
     position: fixed;
     z-index: 9999;
     width: 100vw;
-    background-color: #ef216b;
+    background-color: #ff0079;
   }
   .menu1 li {
     margin-top: 5%;
@@ -324,7 +324,7 @@ h6{
   }
   #tipografia {
     margin-top: -5px;
-    background-color: #ef216b;;
+    background-color: #ff0079;
   }
   
   html {
@@ -365,7 +365,7 @@ h6{
   .item-carrousel {
     width: 20px;
     height: 250px;
-    background-color: #ef216b;
+    background-color: #ff0079;
   }
 
   .carrousel1 img {

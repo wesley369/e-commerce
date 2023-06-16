@@ -269,7 +269,7 @@ body.dark-mode {
     position: fixed;
     z-index: 9999;
     width: 100vw;
-    background-color: #ef216b;
+    background-color: #ff0079;
   }
   .menu1 li {
     margin-top: 5%;
@@ -319,7 +319,7 @@ body.dark-mode {
   .item-carrousel1 {
     width: 20px;
     height: 250px;
-    background-color: #ef216b;
+    background-color: #ff0079;
   }
 
   .carrousel1 img {
