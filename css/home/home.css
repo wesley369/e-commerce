@@ -318,20 +318,40 @@ h4{
 form{
   display: flex;
   width: 90vw;
+  box-shadow: 0 .5rem 1rem rgb(253, 69, 222) ;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: .5rem;
   background-color: #eb83a985;
   margin: 0 auto;
   column-gap: 15px;
   padding: 2% 2%;
+  align-items: center;
 }
 
 .botao{
-  margin-top: 1%;
+  margin-top: 3%;
   background: #ff0079;
   border: 2px solid #ff0079;
+  border-radius: 1.5rem;
   
 } 
+
+.form-control{
+  padding: 1rem;
+  color: #ff0079;
+  text-transform: none;
+  border-radius: .5rem;
+  margin: .7rem 0;
+}
+
+.form textarea{
+  height: 15rem;
+  resize: none;
+}
+
+.form-control:focus{
+  border-color: var(#ff0079);
+}
 
 
 form img{
