@@ -119,6 +119,7 @@ body.dark-mode {
   text-decoration: none;
   color: white;
   background-color: #ff0079;
+  
 }
 .navbar-brand {
   display: flex;
@@ -148,29 +149,31 @@ body.dark-mode {
   align-self: center;
   height: 100%;
   grid-template-rows: 100%;
+
+
 }
 
 .desfoque1 p{
   font-family: "font-awesome", bold;
 }
 
-.sobre-nos1.imgFundo2 h4 {
+.sobre-nos1.imgFundo1 h4 {
   font-size: 3.5rem;
   background-color: none;
-
+  
 }
 
 .sobre-nos1 p {
   font-size: 1.8rem;
 }
-.imgFundo2 {
+.imgFundo1 {
   background-image: url(/html/menu/img/ocasioes);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: auto;
   width: 90vw;
-  margin-left: 58px;
+
 }
 
 .desfoque1 {
@@ -180,7 +183,9 @@ body.dark-mode {
 }
 
 .carrousel1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: row;
   width: 93vw;
   margin-left: auto;
   margin-right: auto;
@@ -231,15 +236,49 @@ body.dark-mode {
 }
 
 .carrousel1 div {
-  margin: 0px 0.4%;
+  margin: 0px 10px;
 }
 
-.slick-prev1::before {
-  color: black;
+
+
+footer{
+  background-color: #ff0079;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 5%;
+  margin-top: 5%;
+  align-items: first baseline;
+  padding-top: 1%;
+  color: white;
 }
 
-.slick-next1::before {
-  color: black;
+h6{
+  text-align: end;
+  vertical-align: bottom;
+  padding: 2%;
+
+}
+.logo-footer{
+  align-self: flex-start;
+}
+.copyright{
+  grid-column: span 3;
+}
+.copyright p{
+  text-align: center;
+}
+
+.redes-sociais{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.redes-sociais > p{
+  align-self: last baseline;
+  margin-left: 2%;
+}
+.hide {
+  display: none;
 }
 
 @media (min-width: 767px) {
@@ -264,7 +303,7 @@ body.dark-mode {
     opacity: 0;
   }
 
-  .menu.active1 {
+  .menu1.active {
     display: block;
     opacity: 1;
     position: fixed;
@@ -276,7 +315,7 @@ body.dark-mode {
     margin-top: 5%;
   }
 
-  .menu1 .icon-box1 {
+  .menu1 .icon-box {
     display: flex;
     column-gap: 8px;
     align-items: center;
@@ -286,8 +325,10 @@ body.dark-mode {
     background-color: none;
   }
   #tipografia {
-    margin-top: -5px;
+    margin-top: 2px;
+    background-color: #ff0079;;
   }
+  
   html {
     font-size: 0.65rem;
   }
@@ -314,10 +355,16 @@ body.dark-mode {
   .search-btn1 {
     height: 15px;
   }
+
+  .carrousel1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+    
+  }
   .carrousel1 {
     width: 80vw;
   }
-  .item-carrousel1 {
+  .item-carrousel {
     width: 20px;
     height: 250px;
     background-color: #ff0079;
@@ -330,16 +377,6 @@ body.dark-mode {
     padding-top: 10px;
   }
 
-  .sobre-nos1.imgFundo2 h4 {
-    font-size: 1.5rem;
-  }
-  .sobre-nos1 p {
-    font-size: 1rem;
-  }
-  .imgFundo2 {
-    height: auto;
-    margin-left: 30px;
-  }
  
 
   footer #logo {

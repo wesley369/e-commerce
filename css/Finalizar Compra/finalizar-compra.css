@@ -146,16 +146,10 @@ body.dark-mode {
     background-color: white;
 }
 
-  .guia{
-    color: rgb(156, 156, 156);
-	  margin-left: 1%;
-    font-size: 90%;
-
-  }
-
-  .guia a{
-    color: #ec4985fd;
-  }
+.breadcrumb a{
+  color: #ff0079;;
+}
+ 
   
   .content{
    padding: 0 5%;
